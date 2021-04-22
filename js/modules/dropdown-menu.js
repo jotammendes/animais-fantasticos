@@ -13,7 +13,7 @@ export default class DropdownMenu {
       this.events = events;
     }
 
-    // bind
+    // bind this ao callback para fazer referência ao objeto da classe
     this.activeDropdownMenu = this.activeDropdownMenu.bind(this);
   }
 
